@@ -1,0 +1,22 @@
+.ContactImage {
+    width: 75px;
+    height: 75px;
+    float: left;
+    padding-left: 25px;
+    padding-top: 12px;
+}
+
+.ContactInfo {
+    height: 100px;
+    float: left;
+    padding-left: 25px; ;   
+    font-family: 'Oswald', sans-serif;;
+}
+
+.contactProfilePic {
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 50%;
+}
+

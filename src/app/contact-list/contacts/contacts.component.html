@@ -1,0 +1,14 @@
+<div>
+    <a class="list-group-item Contact" href="#" *ngFor="let con of contacts">
+        <div class="row">
+            <div class="col-1 ContactImage">
+                <img class="contactProfilePic" [src]=con.profilePicPath alt="dogpic">
+            </div>
+            <div class="col-10 ContactInfo">
+                <h2>{{ con.name }}</h2>
+                <p>{{ con.userID }}</p>
+                <hr>
+            </div>
+        </div>
+    </a>
+</div>

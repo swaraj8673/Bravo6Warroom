@@ -1,0 +1,10 @@
+.AppIcon {
+    width: 120px; 
+    height: 120px; 
+    margin-top: 60px; 
+    margin-bottom: 30px;
+}
+
+.LoginPage {
+    font-family: 'Oswald', sans-serif;
+}

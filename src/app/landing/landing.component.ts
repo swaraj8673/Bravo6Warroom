@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { Cred } from './cred.model';
 
 @Component({
   selector: 'app-landing',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LandingComponent implements OnInit {
 
-   
+   credentials: Cred = new Cred('bird','@bird123','bird@gmail.com','bird@123');
 
-  constructor() { }
+   @Input() credentialEntered: Cred = new Cred('','','','');
+
+  constructor() {
+   }
 
   ngOnInit(): void {
   }

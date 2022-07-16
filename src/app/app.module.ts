@@ -7,6 +7,8 @@ import { ContactListComponent } from './contact-list/contactList.component';
 import { CLHeaderComponents } from './contact-list/contactListHeader/CLHeader.component';
 import { CSearchComponent } from './contact-list/ContactSearch/csearch.component';
 import { ContactsComponent } from './contact-list/contacts/contacts.component';
+import { LandingComponent } from './landing/landing.component';
+import { RegisterComponent } from './landing/register/register.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { ContactsComponent } from './contact-list/contacts/contacts.component';
     ContactListComponent,
     CLHeaderComponents,
     CSearchComponent,
-    ContactsComponent
+    ContactsComponent,
+    LandingComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,

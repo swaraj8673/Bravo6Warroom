@@ -8,3 +8,7 @@
 .LoginPage {
     font-family: 'Oswald', sans-serif;
 }
+
+.LoginForm {
+    width: 300px;
+}
